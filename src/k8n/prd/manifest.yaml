@@ -15,7 +15,7 @@ spec:
         app: webflux-demo-service
     spec:
       containers:
-        - image: quay.io/sadema/webflux-demo
+        - image: webflux-demo
           imagePullPolicy: IfNotPresent
           name: webflux-demo
           ports:
